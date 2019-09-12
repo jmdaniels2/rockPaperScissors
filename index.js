@@ -1,6 +1,6 @@
-var userChoice = document.getElementById("choices").onclick=function(){console.log(userchoice)};
+// var userChoice = document.getElementById("choices").onclick=function(){console.log(userchoice)};
 
-
+let playerSelection= document.getElementById("choices").addEventListener('click',function(){return(playerSelection)});
 
 function computerPlay(){
     var rps =[ 'r', 'p', 's'];
@@ -11,13 +11,9 @@ function computerPlay(){
    
 };
 
-
 document.getElementById("choices").onclick = function(){
     computerPlay(this.addEventListener);
 };
-
-
-// onClick(function(){ console.log "Hello" })
 
 // function playRound(playerSelection, computerSelection) {
 // 	// your code here!
