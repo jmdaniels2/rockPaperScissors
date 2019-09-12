@@ -1,6 +1,17 @@
 // var userChoice = document.getElementById("choices").onclick=function(){console.log(userchoice)};
+// let playerSelection1= document.getElementById("s").addEventListener('click',function(){return("s")});
+// let playerSelection2= document.getElementById("p").addEventListener('click',function(){return("p")});
 
-let playerSelection= document.getElementById("choices").addEventListener('click',function(){return(playerSelection)});
+// let playerSelection= document.getElementById("r").addEventListener('click',function(){return(playerSelection)});
+
+
+const options = document.querySelectorAll('.option');
+
+options.forEach(function(option) {
+  option.addEventListener('click', function(e) {
+    console.log(e.target.id);
+  });
+});
 
 function computerPlay(){
     var rps =[ 'r', 'p', 's'];
