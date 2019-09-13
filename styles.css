@@ -17,14 +17,14 @@ header {
 }
 header > h1 {
     color: #25272E;
-    text-align:center;
+    text-align:right;
     font-family: sans-serif;
 }
 .score-board {
     margin: 20px auto;
     width: 300px;
     border: 3px solid white;
-    border-radius: 15px;
+    border-radius: 200px;
     text-align:center;
     color:white;
     font-size: 46px;

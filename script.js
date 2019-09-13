@@ -7,29 +7,34 @@
 
 const options = document.querySelectorAll('.option');
 
+var  userPlay = 
+
 options.forEach(function(option) {
   option.addEventListener('click', function(e) {
     console.log(e.target.id);
   });
 });
+//************************* */
+var computerPlay= 
 
 function computerPlay(){
-    var rps =[ 'r', 'p', 's'];
-    var min=1;
-    var max=3;
-    var rnum = Math.floor(Math.random() * 3); 
-    console.log(rps[rnum])
-   
+  var rps =[ 'r', 'p', 's'];
+  var min=1;
+  var max=3;
+  var rnum = Math.floor(Math.random() * 3); 
+  console.log(rps[rnum])
+ 
 };
+//********************************** */
 
 document.getElementById("choices").onclick = function(){
     computerPlay(this.addEventListener);
 };
 
-if(console.log()){
+if(console.log(computerPlay,userPlay)){
     alert("you win!")
-}else(alert("loser!"))
-};
+}else alert("loser!")
+
 
 // function playRound(playerSelection, computerSelection) {
 // 	// your code here!
