@@ -26,6 +26,11 @@ document.getElementById("choices").onclick = function(){
     computerPlay(this.addEventListener);
 };
 
+if(console.log()){
+    alert("you win!")
+}else(alert("loser!"))
+};
+
 // function playRound(playerSelection, computerSelection) {
 // 	// your code here!
 // }
