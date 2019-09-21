@@ -17,7 +17,7 @@ header {
 }
 header > h1 {
     color: #25272E;
-    text-align:right;
+    text-align:center;
     font-family: sans-serif;
 }
 .score-board {
